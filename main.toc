@@ -17,5 +17,5 @@
 \contentsline {section}{\numberline {3.1}\IeC {\CYRS }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyru }\IeC {\cyrk }\IeC {\cyrt }\IeC {\cyru }\IeC {\cyrr }\IeC {\cyra } \IeC {\cyrt }\IeC {\cyra } \IeC {\cyrh }\IeC {\cyra }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrk }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyri }\IeC {\cyrk }\IeC {\cyri }}{9}
 \contentsline {section}{\numberline {3.2}\IeC {\CYRP }\IeC {\cyrii }\IeC {\cyrd }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyrz }\IeC {\cyrd }\IeC {\cyrii }\IeC {\cyrl } \IeC {\cyrd }\IeC {\cyrv }\IeC {\cyra }}{9}
 \contentsline {section}{\numberline {3.3}\IeC {\CYRV }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyrk }\IeC {\cyri } \IeC {\cyrd }\IeC {\cyro } \IeC {\cyrr }\IeC {\cyro }\IeC {\cyrz }\IeC {\cyrd }\IeC {\cyrii }\IeC {\cyrl }\IeC {\cyru }~\ref {ch:03}}{9}
-\contentsline {chapter}{\IeC {\CYRV }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyrk }\IeC {\cyri }}{10}
-\contentsline {chapter}{{\Ukrainian \CYRS \cyrp \cyri \cyrs \cyro \cyrk \ \cyrv \cyri \cyrk \cyro \cyrr \cyri \cyrs \cyrt \cyra \cyrn \cyri \cyrh \ \cyrd \cyrzh \cyre \cyrr \cyre \cyrl }}{11}
+\contentsline {chapter}{\IeC {\CYRV }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyrk }\IeC {\cyri }}{11}
+\contentsline {chapter}{{\Ukrainian \CYRS \cyrp \cyri \cyrs \cyro \cyrk \ \cyrv \cyri \cyrk \cyro \cyrr \cyri \cyrs \cyrt \cyra \cyrn \cyri \cyrh \ \cyrd \cyrzh \cyre \cyrr \cyre \cyrl }}{12}
