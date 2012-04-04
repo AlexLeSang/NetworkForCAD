@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{1}
 \def\selectlanguageifdefined#1{
 \expandafter\ifx\csname date#1\endcsname\relax
 \else\language\csname l@#1\endcsname\fi}
@@ -7,97 +7,10 @@
 \ifx\undefined\BibAnnote\long\def\BibAnnote#1{}\else\fi
 \ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
 
-\bibitem{Zah1999}
-\selectlanguageifdefined{russian}
-\BibEmph{Загоруйко~Н.} Прикладные методы анализа данных и знаний~/
-  Н.~Загоруйко. "---
-\newblock Новосибирск: ИМ СО РАН, 1999. "---
-\newblock 270~{\cyr\cyrs.}
-
-\bibitem{Asuncion+Newman:2007}
+\bibitem{ProGit}
 \selectlanguageifdefined{english}
-\BibEmph{Asuncion~A.} {UCI} machine learning repository. "---
-\newblock 2007. \BibUrl{ http://archive.ics.uci.edu/ml/}.
-
-\bibitem{ChGa2006}
-\selectlanguageifdefined{english}
-\BibEmph{Bauer~C.} Java Persistence with Hibernate~/ C.~Bauer, G.~King. "---
-\newblock Manning Publications, 2006. "---
-\newblock 904~p.
-
-\bibitem{CoMa2003}
-\selectlanguageifdefined{english}
-\BibEmph{Coppock~S.} Rough sets used in the measurement of similarity of mixed
-  mode data~/ S.~Coppock, L.~Mazlack~// Proceedings of 22nd International
-  Conference of the North American (NAFIPS-2003). "---
-\newblock Chicago, USA: 24--26 Jul 2003. "---
-\newblock P.~197--201.
-
-\bibitem{DeGh2008}
-\selectlanguageifdefined{english}
-\BibEmph{Dean~J.} Mapreduce: simplified data processing on large clusters~/
-  J.~Dean, S.~Ghemawat~// \BibEmph{Commun. ACM}. "---
-\newblock 2008. "---
-\newblock Vol.~51, no.~1. "---
-\newblock P.~107--113.
-
-\bibitem{Fie2000}
-\selectlanguageifdefined{english}
-\BibEmph{Fielding~R.~T.} Architectural styles and the design of network-based
-  software architectures: Phd thesis. "---
-\newblock University of California, Irvine, USA, 2000. \BibUrl{
-  http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm}.
-
-\bibitem{GoPeBl2006}
-\selectlanguageifdefined{english}
-\BibEmph{Goetz~B.} Java Concurrency in Practice~/ B.~Goetz, T.~Peierls,
-  J.~Bloch. "---
-\newblock Addison-Wesley Professional, 2006. "---
-\newblock 384~p.
-
-\bibitem{Cab1996}
-\selectlanguageifdefined{english}
-\BibEmph{McCabe~T.~J.} Cyclomatic complexity and the year 2000~/
-  T.~J.~McCabe~// \BibEmph{IEEE Software}. "---
-\newblock 1996. "---
-\newblock Vol.~13, no.~3. "---
-\newblock P.~115--117.
-
-\bibitem{Ode2006}
-\selectlanguageifdefined{english}
-\BibEmph{Odersky~M.} Event-based programming without inversion of control~/
-  M.~Odersky~// In Proc. Joint Modular Languages Conference (2006), Springer
-  LNCS. "---
-\newblock Springer, 2006. "---
-\newblock P.~4--22.
-
-\bibitem{Ode2007}
-\selectlanguageifdefined{english}
-\BibEmph{Odersky~M.} Actors that unify threads and events~/ M.~Odersky~// In
-  International Conference on Coordination Models and Languages, LNCS. "---
-\newblock Springer-Verlang, 2007. "---
-\newblock P.~171--190.
-
-\bibitem{OdSpVe2008}
-\selectlanguageifdefined{english}
-\BibEmph{Odersky~M.} Programming in Scala: A Comprehensive Step-by-step Guide~/
-  M.~Odersky, L.~Spoon, B.~Venners. "---
-\newblock 1st edition. "---
-\newblock Artima Inc, 2008. "---
-\newblock 776~p.
-
-\bibitem{WaPa2009}
-\selectlanguageifdefined{english}
-\BibEmph{Wampler~D.} Programming Scala: Scalability = Functional Programming +
-  Objects~/ D.~Wampler, A.~Payne. "---
-\newblock 1st edition. "---
-\newblock O'Reilly Media, 2009. "---
-\newblock 448~p.
-
-\bibitem{XU-WUNSCH2009}
-\selectlanguageifdefined{english}
-\BibEmph{Xu~R.} Clustering~/ R.~Xu, D.~C.~Wunsch. "---
-\newblock Wiley, 2009. "---
-\newblock 364~p.
+\BibEmph{Chason~S.} Pro Git~/ S.~Chason. "---
+\newblock Apress, 2009. "---
+\newblock 1~p.
 
 \end{thebibliography}

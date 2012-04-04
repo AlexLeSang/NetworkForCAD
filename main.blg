@@ -1,4 +1,4 @@
-This is 8-bit Big BibTeX version 0.99c
+This is 8-bit Big BibTeX version 0.99d
 Implementation:  C for Unix
 Release version: 3.71 (31 May 2005)
 
@@ -11,24 +11,18 @@ A level-1 auxilliary file: chapters/03-software-and-experiments/software-and-exp
 A level-1 auxilliary file: chapters/04-conclusion/conclusion.aux
 A level-1 auxilliary file: chapters/05-bibliography/bibliography.aux
 The style file: gost780s.bst
+Reallocated glb_str_ptr (elt_size=4) to 10 items from 0.
+Reallocated global_strs (elt_size=5001) to 10 items from 0.
+Reallocated glb_str_end (elt_size=4) to 10 items from 0.
 Database file #1: chapters/05-bibliography/sources.bib
-Warning--I didn't find a database entry for "YoKe1958"
-Warning--I didn't find a database entry for "CODASYL1962"
-Warning--I didn't find a database entry for "Kal1983"
-Warning--I didn't find a database entry for "Oli2009"
-Warning--I didn't find a database entry for "Ros1963"
-Warning--I didn't find a database entry for "ShlHlav2004"
-Warning--I didn't find a database entry for "Iva1982"
-Warning--I didn't find a database entry for "MaIv1994"
-Warning--I didn't find a database entry for "Koh2001"
-Warning--I didn't find a database entry for "RMS1992"
-Warning--empty school in Fie2000
+Warning--I didn't find a database entry for "Fie2000"
+Warning--I didn't find a database entry for "ChGa2006"
 
 Here's how much of BibTeX's memory you used:
- Cites:                13 out of 2000
- Fields:                2 out of 30000
- Hash table:         9757 out of 10000
- Strings:             791 out of 10000
- String pool:        7861 out of 130000
- Wizard functions:   2923 out of 6000
-(There were 11 warnings)
+ Cites:                 1 out of 750
+ Fields:                2 out of 5000
+ Hash table:         9771 out of 10000
+ Strings:             687 out of 10000
+ Free string pool:   5902 out of 65000
+ Wizard functions:   2923 out of 3000
+(There were 2 warnings)
