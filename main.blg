@@ -15,14 +15,11 @@ Reallocated glb_str_ptr (elt_size=4) to 10 items from 0.
 Reallocated global_strs (elt_size=5001) to 10 items from 0.
 Reallocated glb_str_end (elt_size=4) to 10 items from 0.
 Database file #1: chapters/05-bibliography/sources.bib
-Warning--I didn't find a database entry for "Fie2000"
-Warning--I didn't find a database entry for "ChGa2006"
 
 Here's how much of BibTeX's memory you used:
  Cites:                 1 out of 750
  Fields:                2 out of 5000
  Hash table:         9771 out of 10000
- Strings:             687 out of 10000
- Free string pool:   5902 out of 65000
+ Strings:             683 out of 10000
+ Free string pool:   5872 out of 65000
  Wizard functions:   2923 out of 3000
-(There were 2 warnings)
