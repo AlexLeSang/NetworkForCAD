@@ -13,4 +13,10 @@
 \newblock Apress, 2009. "---
 \newblock 1~p.
 
+\bibitem{UNIX}
+\selectlanguageifdefined{Russian}
+\BibEmph{Robbins~A.} Unix in a nutshell~/ A.~Robbins. "---
+\newblock O`REILLY, 2007. "---
+\newblock 846~p.
+
 \end{thebibliography}
