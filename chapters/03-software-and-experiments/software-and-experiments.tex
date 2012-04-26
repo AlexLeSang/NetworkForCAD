@@ -79,52 +79,66 @@ VPN складається з двох частин: «внутрішня» (підконтрольна) мережа, яких може бут
   \item Kraftway Credo Pro
 \end{itemize}
 
-
+\newpage
 \begin{center}
 \begin{small}
-\begin{table} \small
-\centering
-\begin{tabular}
-% {|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
-{| p{0.27\linewidth} | p{0.15\linewidth} | p{0.15\linewidth} | p{0.15\linewidth} | p{0.15\linewidth} |}
+\begin{table}
+% \textbf{Параметри апаратної частини клієнтської робочої станції}
+% \centering
+\begin{tabular*}{1\textwidth}
+{| p{0.21\linewidth} | p{0.165\linewidth} | p{0.165\linewidth} | p{0.165\linewidth} | p{0.165\linewidth} |}
+% {|| c | c | c | c | c ||}
 \hline
-Робоча станція & WS 161 & WS 262 & WS 453 & WS 479 \\ 
+\textbf{ \specialcell {Робоча\\станція} } & \textbf{WS 161} & \textbf{WS 262} & \textbf{WS 453} & \textbf{WS 479} \\ 
 \hline 
-Процесор &  Intel Pentium Dual Core; Intel Core i3 & I5, I7, Socket 1155 & I7-9xx, Socket 1366 & Intel Core i7 Sandy Bridge-E, Socket 2011 \\ 
 \hline 
-Операційна система & Windows 7 Professional, 32 і 64 & Windows 7 Professional, 32 i 64 & Windows 7 Professional, 32 i 64 & Windows 7 Professional, 32 i 64 \\ 
+\textbf{ \specialcell {Процесор} } &  Intel Pentium Dual Core; Intel Core i3 & I5, I7, Socket 1155 & I7-9xx, Socket 1366 & Intel Core i7 Sandy Bridge-E, Socket 2011 \\ 
 \hline 
-Чіпсет & Intel® H61 & Intel® Z68 & Intel® X58 & Intel® X79 \\ 
+\textbf{ \specialcell {Чіпсет} } & Intel® H60 & Intel® Z68 & Intel® X58 & Intel® X79 \\ 
 \hline 
-Cистемна шина & DMI 5 ГТ/с & DMI 5 ГТ/с & QPI 5 ГТ/с &  DMI 5 ГТ/с \\ 
+\textbf{ \specialcell {Cистемна\\шина} } & DMI 5 ГТ/с & DMI 5 ГТ/с & QPI 5 ГТ/с &  DMI 5 ГТ/с \\ 
 \hline 
-Опер. пам’ять, Гб, МГц & До 16, DDR3 1333/1066/800 МГц & До 32, DDR3 1333/1066/800 МГц & До 24, DDR3 1333/1066/800 МГц & До 32, DDR3 1600 МГц \\ 
+\textbf{ \specialcell {RAM, Гб} } & $\leq$16, DDR3 & $\leq$32, DDR3 & $\leq$24, DDR3 & $\leq$32, DDR3 \\ 
 \hline 
-Слоти розширення & 1xPCI-E 16x; 1xPCI-E 1x; 2xPCI & 3 x PCI; 2 x PCI E x1; 1 x PCI E x16; 1 x PCI E x16 (PCI-E х4) & 2 - PCI; 1 - PCI-E x1; 3 - PCI-E x16 & 1 - PCI; 2 - PCI-E x1; 2 - PCI-E x16; 2 - PCI-E x16 
+\textbf{ \specialcell { Слоти\\розширення} } & 1xPCI-E 16x; 1xPCI-E 1x; 2xPCI & 3 x PCI; 2 x PCI E x1; 1 x PCI E x16; 1 x PCI E x16 (PCI-E х4) & 2 - PCI; 1 - PCI-E x1; 3 - PCI-E x16 & 1 - PCI; 2 - PCI-E x1; 2 - PCI-E x16; 2 - PCI-E x16 
 (x8)\\ 
 \hline 
-Відеоконтроллер & NVIDIA Quadro 600 & NVIDIA Quadro 600, NVIDIA Quadro 2000, NVIDIA Quadro 4000, NVIDIA Quadro 5000 & NVIDIA Quadro 600, NVIDIA Quadro 2000, NVIDIA Quadro 4000, NVIDIA Quadro 5000 (Підтримується установка двох відеокарт) &  NVIDIA Quadro 600, NVIDIA Quadro 2000, NVIDIA Quadro 4000, NVIDIA Quadro 5000 (Підтримується установка двох відеокарт) \\ 
+\textbf{ \specialcell {Відеоадаптер} } & NVIDIA Quadro 600 & Quadro 600, Quadro 2000, Quadro 4000, Quadro 5000 & Quadro 600, Quadro 2000, Quadro 4000, Quadro 5000 ($\times 2$) & Quadro 600, Quadro 2000, Quadro 4000, Quadro 5000 ($\times 2$) \\ 
 \hline 
-Жорсткий диск & Один SSD чи HDD до 500 ГБ & 4 – SATA 3Гб/с; 2 – SATA 6Гб/с & 4 – SATA 3Гб/с; 2 – SATA 6Гб/с & 4 – SATA 3Гб/с; 2 – SATA 6Гб/с \\ 
+\textbf{ \specialcell {HDD}} & Один SSD чи HDD до 500 ГБ & 4 – SATA 3Гб/с; 2 – SATA 6Гб/с & 4 – SATA 3Гб/с; 2 – SATA 6Гб/с & 4 – SATA 3Гб/с; 2 – SATA 6Гб/с \\ 
 \hline 
-RAID-контролер & -- & Набортний. RAID 0, 1, 10, 5 & Набортний. RAID 0, 1, 10, 5  & Набортний. RAID 0, 1, 10, 5  \\ 
+\textbf{ \specialcell {RAID} } & -- & Набортний. RAID 0, 1, 10, 5 & Набортний. RAID 0, 1, 10, 5  & Набортний. RAID 0, 1, 10, 5  \\ 
 \hline 
-Звукова система & Realtek® ALC 887, 8 каналов & Realtek® ALC892, 8 каналов, есть выход S/PDIF & 8-канальный кодек Realtek® ALC1200 & 8-канальний кодек Realtek ALC898 2/4/5.1/7.1-channel Сертифікований для Dolby® Home Theater Присутній S/PDIF \\ 
+\textbf{ \specialcell {Мережевий\\адаптер} } & Realtek® 8111E & Intel® 82579 & Realtek® 8111 AI NET2 & Intel GbE LAN \\ 
 \hline 
-Мережевий адаптер & Realtek® 8111E (10/100/1000 Мбіт/с) & Intel® 82579 (10/100/1000 Мбіт/с) & Realtek® 8111 з підтримкою AI NET2 (10/100/1000 Мбіт/с) & Intel GbE LAN (10/100/1000 Мбіт/с) \\ 
+\textbf{ \specialcell {Корпус, мм} } & 330x417x100 & 200х440x493 & 200х440x493 & 200х440x493 \\ 
 \hline 
-Корпус, мм & 330x417x100 & 200х440x493 & 200х440x493 & 200х440x493 \\ 
+\textbf{ \specialcell {Роз’єми\\зовнішніх\\пристроїв} } & USB 2.0 $\times 8$, USB 3.0 $\times 3$ & USB 2.0 $\times 12$, USB 3.0 $\times 2$ & USB 2.0 $\times 12$ & USB 2.0 $\times 16$, USB 3.0 $\times 4$ \\ 
 \hline 
-Роз’єми зовнішніх пристроїв &  до 8 USB 2.0 та 2 USB 3.0 & до 12 USB 2.0 и 2 USB 3.0 & до 12 USB 2.0 & до 16 USB 2.0 и 4 USB 3.0 \\ 
+\textbf{ \specialcell {Джерело\\живлення} } & 300 Вт & 550 Вт, 700 Вт, 1010 Вт & 550 Вт, 700 Вт, 1010 Вт & 550 Вт, 700 Вт, 1010 Вт \\ 
 \hline 
-Джерело живлення & & & & \\ 
-\hline 
-Оптичний привід & & & & \\
-\hline
-\end{tabular}
+\end{tabular*}
+\caption{Параметри апаратної частини клієнтської робочої станції}
+\label{tab:hardware}
 \end{table}
 \end{small}
 \end{center}
+
+Для виконання даного курсового проекту за базову конфігурацію клієнтської робочої станції було обрано такі параметри:
+\begin{itemize}
+  \item Материнська плата: M/b Asustek P8Z68-V LX  iZ68/LGA1155/2PCIE16/2PCIE1/3PCI/4DDR3/RAID/GLan/ATX ;
+  \item Процесор: CPU Intel Core i7-2600 3,4Ghz 8Mb Video LGA1155 OEM (95W) ;
+  \item Модуль пам’яті: DIMM DDR3 4GB Samsung PC12800 $\times 2$ ;
+  \item HDD: 1TB 3,5" Seagate ST1000DM003 Barracuda SATA3 64MB 7200rpm ;
+  \item Відеокарта: VGA PNY Quadro 4000  2048MB/PCI-E/DVI/2DisplayPort/OEM ;
+  \item Корпус: Arbyte Silex black 700W ;
+  \item Блок живлення: Enhance ENP-6770GA блок живлення 700W ATX ;
+  \item Клавіатура: Logitech Deluxe 250 black keyboard  PS/2 (967642-0112) ;
+  \item Миша: Logitech B110 optical black mouse USB (910-001246) ;
+  \item CD та DVD приводи: Optical drive DVD-+R/RW SONY AD-7280S black SATA OEM ;
+  \item 3D маніпулятор: 3Dconnexion ACS.3DX-700028 SpaceNavigator, USB ;
+\end{itemize}
+Вартість поточної конфігурації: 3493\$
 
 % Це для клієнтської частини:
 % http://support.ascon.ru/hardware/workstations/
@@ -138,16 +152,46 @@ RAID-контролер & -- & Набортний. RAID 0, 1, 10, 5 & Набортний. RAID 0, 1, 10, 5 
 % Для Git та Mercurial сервера
 
 % Тут необхідно вказати стандартні набори апаратної комплектації для організації та підтримки VCS
-
+\newpage
 \section{Програмне забезпечення систем контролю версій}
 В САПР системах серверні частини виконують функції:
 \begin{itemize}
-\item Контролю розподіленої розробки
-\item Організації процесу контролю версій
-\item Відслідковування бізнес процесів
-\item Розсилання повідомлень
+\item Контролю розподіленої розробки;
+\item Організації процесу контролю версій;
+\item Відслідковування бізнес процесів;
+\item Розсилання повідомлень;
 \item Адміністрування користувачів.
 \end{itemize}
+
+\begin{center}
+\begin{small}
+\begin{table}
+\begin{tabular*}{1\textwidth}
+{|| p{0.47\linewidth} | p{0.47\linewidth} || } 
+\hline
+\textbf{Програмне забезпечення} & \textbf{Ціна, грн} \\
+\hline
+\hline
+КОМПАС-3D V11 & 21 570.00 \\
+\hline
+Microsoft Office Професійний & 4 140.00 \\
+\hline
+LibreOffice & безкоштовно \\
+\hline
+Windows 7 32 Професійна & 1 588.00 \\
+\hline
+Ubuntu 11.10 32 & безкоштовно \\
+\hline
+WINE@Etersoft 1.1 CAD & 273.00 \\
+\hline
+\end{tabular*}
+\caption{Цінові параметри програмного забезпечення}
+\end{table}
+\end{small}
+\end{center}
+
+Для виконання порівняльного аналізу вартості використання спеціалізованих PDM систем та безкоштовних розглядається розробницька організація, яка містить 10 розробників. Для кожного розробника на робочій станції необхідна наявність CAD системи та офісного пакету для оформлення докуменації. В якості CAD системи розглядається КОМПАС-3D V11, ціна за одну ліцензійну копію складає 21 570 грн (2700 \$). Для оформлення документації використовується Microsoft Office Професійний (орієнтована ціна пакету - 4140 грн (520 \$ )) і як альтернативний варіант -- LibreOffice (безкоштовний). Робоча станція може знаходитись під керуванням операційної системи Windows 7 x32 (1 588.00 грн) або Ubuntu 11.10 x32.
+
 
 % Описати серверні та клієнтські частини для кожної з розглянутих VCS та вказати мінімальну конфігурацію необхдного апаратного забезпечення та вартість пакету з розрахунку на розробницьку організацію в кількості 15 чоловік, що є середнім значенням колективу розробників на території Львівської області. Необхідно навести  графіки та діаграми кошторису.
 

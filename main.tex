@@ -13,6 +13,10 @@
 \usepackage[cp1251]{inputenc}
 \usepackage[english,russian,ukrainian]{babel}
 
+\usepackage{longtable}
+
+
+
 \usepackage{graphicx}
 \usepackage{subfigure}
 \usepackage{alltt}
@@ -72,6 +76,10 @@
 \newtheorem{remark}{Зауваження}[chapter]
 % \theoremstyle{statement}
 \newtheorem{statement}{Твердження}[chapter]
+
+\newcommand{\specialcell}[2][c]{%
+  \begin{tabular}[#1]{lc}#2\end{tabular}}
+
 
 % Цікавий варіант: всі теореми нумеруються одним лічильником,
 % тобто теорема 1.1, лема 1.2, теорема 1.3
