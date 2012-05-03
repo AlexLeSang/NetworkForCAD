@@ -7,11 +7,23 @@
 \ifx\undefined\BibAnnote\long\def\BibAnnote#1{}\else\fi
 \ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
 
+\bibitem{Networks}
+\selectlanguageifdefined{ukrainian}
+\BibEmph{Burov~E.} Computer Networks~/ E.~Burov. "---
+\newblock BAK, 2003. "---
+\newblock 584~{\cyr\cyrs.}
+
 \bibitem{ProGit}
 \selectlanguageifdefined{english}
 \BibEmph{Chason~S.} Pro Git~/ S.~Chason. "---
 \newblock Apress, 2009. "---
 \newblock 1~p.
+
+\bibitem{VPN}
+\selectlanguageifdefined{Russian}
+\BibEmph{M.~C.} Technologies of corporative networks. Encyclopedy.~/ C.~M. "---
+\newblock Piter, 2000. "---
+\newblock 704~p.
 
 \bibitem{UNIX}
 \selectlanguageifdefined{Russian}
