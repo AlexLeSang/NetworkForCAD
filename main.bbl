@@ -8,10 +8,10 @@
 \ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
 
 \bibitem{Networks}
-\selectlanguageifdefined{ukrainian}
+\selectlanguageifdefined{Ukrainian}
 \BibEmph{Burov~E.} Computer Networks~/ E.~Burov. "---
 \newblock BAK, 2003. "---
-\newblock 584~{\cyr\cyrs.}
+\newblock 584~p.
 
 \bibitem{ProGit}
 \selectlanguageifdefined{english}
