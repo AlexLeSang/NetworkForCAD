@@ -15,8 +15,7 @@
 
 \usepackage{longtable}
 \usepackage{lscape}
-
-
+\usepackage{multicol}
 \usepackage{graphicx}
 \usepackage{subfigure}
 \usepackage{alltt}
@@ -204,6 +203,7 @@
 %\speciality{01.05.03}[технічних наук]
 % Варіант із вказуванням факультативних аргументів
 \speciality{01.05.03}
+% \speciality{00.06.050101}
 % Індекс за УДК
 % \udc{004.853+004.855.5}
 % Установа, де виконана робота, і місто
@@ -211,17 +211,19 @@
 % Рік, коли написана (подана до захисту?) дисертація
 \date{2012}
 
-% Тут буде титульна сторінка
-\maketitle
+% Тут буде титульна сторінка, колись, можливо
+% \maketitle
 
 % Зміст
 \setcounter{tocdepth}{2} % контролює рівень заголовків, які повинні відображатись у змісті
-\tableofcontents
+% \tableofcontents
 \nocite{*}
 %\listoftables 
 %\listoffigures
 
 % Розділи дисертації в окремих файлах
+\include{titlepage-cp1251}
+\tableofcontents
 \include{chapters/00-intro/intro}%                                                      Вступ
 \include{chapters/01-problem-overview/problem-overview}%                                Розділ 1
 \include{chapters/02-the-core/the-core}%                                                Розділ 2
