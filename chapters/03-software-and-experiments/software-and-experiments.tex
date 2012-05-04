@@ -16,63 +16,62 @@
 
 Сумарна вартість мережевого забезпечення = вартість комутатора + вартість маршрутизатора = \$116 + \$185 = \$301 =  2 429 грн.
  
-% \begin{table}
-% \begin{tabular}{|c|c|c|c|}
-%  ?
-% \end{tabular}
-%  
-% \end{table}
+\begin{table}
+\begin{tabular}{|c|c|c|c|}
+\end{tabular}
+ 
+\end{table}
 
-% \begin{figure}
-% 
-% \begin{tikzpicture}[
-%     start chain=going right,
-%     diagram item/.style={
-%         on chain,
-%         join
-%     }
-% ]
-% \node [
-%     diagram item,
-%     label=center:Internet
-% ] {\includegraphics{cloud}};
-% 
-% \node [
-%     diagram item,
-%     label=right:Router
-% ] {\includegraphics{router}};
-% 
-% \node [
-%     continue chain=going below,
-%     diagram item,
-%     label=right:Switch
-% ] {\includegraphics{workgroup_switch}};
-% 
-% \node [
-%     start branch=1 going below right,
-%     diagram item,
-%     label=below:Workstation
-% ] {\includegraphics{pc}};
-% 
-% \node [
-%     start branch=2 going below left,
-%     diagram item,
-%     label=below:Printer
-% ] {\includegraphics{printer}};
-% 
-% \node [
-%     diagram item,
-%     label=below:Server
-% ] {\includegraphics{standard_host}};
-% \end{tikzpicture}
-% \caption{Структура мережі}
-% \end{figure}
+\begin{figure}
+
+\begin{tikzpicture}[
+    start chain=going right,
+    diagram item/.style={
+        on chain,
+        join
+    }
+]
+\node [
+    diagram item,
+    label=center:Internet
+] {\includegraphics{cloud}};
+
+\node [
+    diagram item,
+    label=right:Router
+] {\includegraphics{router}};
+
+\node [
+    continue chain=going below,
+    diagram item,
+    label=right:Switch
+] {\includegraphics{workgroup_switch}};
+
+\node [
+    start branch=1 going below right,
+    diagram item,
+    label=below:Workstation
+] {\includegraphics{pc}};
+
+\node [
+    start branch=2 going below left,
+    diagram item,
+    label=below:Printer
+] {\includegraphics{printer}};
+
+\node [
+    diagram item,
+    label=below:Server
+] {\includegraphics{standard_host}};
+\end{tikzpicture}
+\caption{Структура мережі}
+\end{figure}
 
 \subsection{VPN}
 
 VPN (Віртуальна приватна мережа, англ. Virtual Private Network) -- це логічна мережа, створена поверх інших мереж, на базі загальнодоступних або віртуальних каналів інших мереж (Інтернет). Безпека передавання пакетів через загальнодоступні мережі реалізується за допомогою шифрування, внаслідок чого створюється закритий для сторонніх канал обміну інформацією. VPN дозволяє об'єднати, декілька географічно віддалених мереж організації в єдину мережу з використанням для зв'язку між ними непідконтрольних каналів.
 
-Прикладом створення віртуальної мережі використовується інкапсуляція протоколу PPP в будь-який інший протокол -- IP (ця реалізація називається так само PPTP — Point-to-Point Tunneling Protocol) або Ethernet (PPPoE). Деякі інші протоколи так само надають можливість формування захищених каналів (SSH).
+Прикладом створення віртуальної мережі використовується інкапсуляція протоколу PPP в будь-який інший протокол -- IP (ця реалізація називається так само PPTP — Point-to-Point Tunneling Protocol) або Ethernet (PPPoE). Деякі інші протоколи так само надають можливість формування захищених каналів (SSH) \cite{Networks}.
 
 \subsubsection{Структура VPN}
 
