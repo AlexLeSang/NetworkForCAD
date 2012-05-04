@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \def\selectlanguageifdefined#1{
 \expandafter\ifx\csname date#1\endcsname\relax
 \else\language\csname l@#1\endcsname\fi}
@@ -6,6 +6,16 @@
 \ifx\undefined\BibUrl\def\BibUrl#1{\url{#1}}\else\fi
 \ifx\undefined\BibAnnote\long\def\BibAnnote#1{}\else\fi
 \ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
+
+\bibitem{arbyte-hardware}
+\selectlanguageifdefined{english}
+Arbyte® hardware. "---
+\newblock \url{http://support.ascon.ru/hardware/workstations/arbyte/}.
+
+\bibitem{kompas-price}
+\selectlanguageifdefined{english}
+Ascon products. "---
+\newblock \url{http://29513.ua.all.biz/pg_kompas-3d-v11_6344358}.
 
 \bibitem{Networks}
 \selectlanguageifdefined{Ukrainian}
@@ -19,16 +29,53 @@
 \newblock Apress, 2009. "---
 \newblock 1~p.
 
+\bibitem{ethersoft-price}
+\selectlanguageifdefined{english}
+Ethersoft price list. "---
+\newblock \url{http://etersoft.ru/prajs-list}.
+
+\bibitem{HP-price}
+\selectlanguageifdefined{english}
+Hp server. "---
+\newblock
+  \url{http://h10010.www1.hp.com/wwpc/us/en/sm/WF06b/15351-15351-241434-241646-241477-3884315-5145765-5145766.html?dnr=1}.
+
+\bibitem{kompas-hardware}
+\selectlanguageifdefined{english}
+Kompas hardware. "---
+\newblock \url{http://support.ascon.ru/hardware/}.
+
 \bibitem{VPN}
 \selectlanguageifdefined{Russian}
 \BibEmph{M.~C.} Technologies of corporative networks. Encyclopedy.~/ C.~M. "---
 \newblock Piter, 2000. "---
 \newblock 704~p.
 
+\bibitem{ms-sql-price}
+\selectlanguageifdefined{english}
+Microsoft sql server. "---
+\newblock \url{http://softlist.com.ua/products/microsoft-sql-server.html}.
+
+\bibitem{Win7-price}
+\selectlanguageifdefined{english}
+Microsoft windows 7 professional edition price. "---
+\newblock \url{http://www.softkey.ua/windows_7_professional_edition/}.
+
 \bibitem{UNIX}
 \selectlanguageifdefined{Russian}
 \BibEmph{Robbins~A.} Unix in a nutshell~/ A.~Robbins. "---
 \newblock O`REILLY, 2007. "---
 \newblock 846~p.
+
+\bibitem{ms-office-price}
+\selectlanguageifdefined{english}
+Windows office pro. "---
+\newblock
+  \url{http://www7.buyoffice.microsoft.com/emea2/product.aspx?family=o14_officepro&action=buy&country_id=UA&WT.mc_id=ODC_ukUA_Pro_Buy}.
+
+\bibitem{ms-server-price}
+\selectlanguageifdefined{english}
+Windows server standard 2008 r2. "---
+\newblock \url{http://softlist.com.ua/products/windows-server.html}.
 
 \end{thebibliography}
