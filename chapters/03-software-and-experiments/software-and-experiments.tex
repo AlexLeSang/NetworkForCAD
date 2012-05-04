@@ -17,8 +17,8 @@
 Для підключення до глобальної мережі використаємо Cisco SB RV042-EU, який розроблений корпорацією Cisco Systems саме для використання в невеликих мережах, як можна побачити з таблиці \ref{tab:tb1} інші маршрутизатори цієї серії володіють надлишковістю, яка нам не потрібна. Обрано саме цей маршрутизатор, тому що в ньому наявний достатній набір засобів для роботи з VPN та дозволяє підключати до 50 VPN користувачів, що є достатнім для нашої мережі і дозволить підключатися до процесу розробки віддалено. Маршрутизатор володіє вбудованими засобами безпеки, такими як SPI файрвол, що дозволяє фільтрувати пакети згідно активних підключень і список доступу URL.
 
 Сумарна вартість мережевого забезпечення = вартість комутатора + вартість маршрутизатора = \$116 + \$185 = \$301 =  2 429 грн.
- \begin{center}
-\begin{table}\label{tab:tb1}
+\begin{center}
+\begin{table}
 \begin{tabular}{|c|c|c|c|}
 \hline 
 Модель & З’єднань & Регульованих портів & VPN користувачів \\
@@ -32,7 +32,8 @@ RV016 & 16 & 7 & 100 \\
 \end{tabular}
  \caption{Маршрутизатори Cisco для малих мереж}
 \end{table}
- \end{center}
+\label{tab:tb1}
+\end{center}
 
 \begin{figure}
 
@@ -144,20 +145,17 @@ VPN з'єднання завжди складається з каналу типу точка-точка, також відомого під н
   \item Aquarius Pro G40 series
   \item Kraftway Credo Pro
 \end{itemize}
-
 В даній роботі для організації клієнтської робочої станції використовуватиметься комп’ютер, характеристики якого відповідають сучасним вимогам САПР систем та забезпечують оптимальну якість та швидкість роботи розробників.
 
-Дана таблиця відображає параметри робочих станції від компанії \\ARBYTE® та наведена для оцінки необхідного рівня комплектації клієнтської робочої станції \cite{arbyte-hardware} .
+Дана таблиця відображає параметри робочих станції від компанії \\ARBYTE® та наведена для оцінки необхідного рівня комплектації клієнтської робочої станції \cite{arbyte-hardware}.
 
-%\newpage
 \begin{center}
 \begin{small}
-\begin{table}
+\begin{table} [!h]
 % \textbf{Параметри апаратної частини клієнтської робочої станції}
 % \centering
 \begin{longtable}%{1\textwidth}
-{| p{0.21\linewidth} | p{0.165\linewidth} | p{0.165\linewidth} | p{0.165\linewidth} | p{0.165\linewidth} |}
-% {|| c | c | c | c | c ||}
+{| p{0.183\linewidth} | p{0.16\linewidth} | p{0.17\linewidth} | p{0.17\linewidth} | p{0.17\linewidth} |}
 \hline
 \textbf{ \specialcell {Робоча\\станція} } & \textbf{WS 161} & \textbf{WS 262} & \textbf{WS 453} & \textbf{WS 479} \\ 
 \hline 
@@ -170,22 +168,22 @@ VPN з'єднання завжди складається з каналу типу точка-точка, також відомого під н
 \hline 
 \textbf{ \specialcell {RAM, Гб} } & $\leq$16, DDR3 & $\leq$32, DDR3 & $\leq$24, DDR3 & $\leq$32, DDR3 \\ 
 \hline 
-\textbf{ \specialcell { Слоти\\розширення} } & 1xPCI-E 16x; 1xPCI-E 1x; 2xPCI & 3 x PCI; 2 x PCI E x1; 1 x PCI E x16; 1 x PCI E x16 (PCI-E х4) & 2 - PCI; 1 - PCI-E x1; 3 - PCI-E x16 & 1 - PCI; 2 - PCI-E x1; 2 - PCI-E x16; 2 - PCI-E x16 
+\textbf{ \specialcell { Додаткові\\слоти} } & 1xPCI-E 16x; 1xPCI-E 1x; 2xPCI & 3 x PCI; 2 x PCI E x1; 1 x PCI E x16; 1 x PCI E x16 (PCI-E х4) & 2 - PCI; 1 - PCI-E x1; 3 - PCI-E x16 & 1 - PCI; 2 - PCI-E x1; 2 - PCI-E x16; 2 - PCI-E x16 
 (x8)\\ 
 \hline 
-\textbf{ \specialcell {Відеоадаптер} } & NVIDIA Quadro 600 & Quadro 600, Quadro 2000, Quadro 4000, Quadro 5000 & Quadro 600, Quadro 2000, Quadro 4000, Quadro 5000 ($\times 2$) & Quadro 600, Quadro 2000, Quadro 4000, Quadro 5000 ($\times 2$) \\ 
+\textbf{ \specialcell {Відеокарта} } & NVIDIA Quadro 600 & Quadro 600, Quadro 2000, Quadro 4000, Quadro 5000 & Quadro 600, Quadro 2000, Quadro 4000, Quadro 5000 ($\times 2$) & Quadro 600, Quadro 2000, Quadro 4000, Quadro 5000 ($\times 2$) \\ 
 \hline 
 \textbf{ \specialcell {HDD}} & Один SSD чи HDD до 500 ГБ & 4 – SATA 3Гб/с; 2 – SATA 6Гб/с & 4 – SATA 3Гб/с; 2 – SATA 6Гб/с & 4 – SATA 3Гб/с; 2 – SATA 6Гб/с \\ 
 \hline 
-\textbf{ \specialcell {RAID} } & -- & Набортний. RAID 0, 1, 10, 5 & Набортний. RAID 0, 1, 10, 5  & Набортний. RAID 0, 1, 10, 5  \\ 
+\textbf{ \specialcell {RAID} } & -- & RAID 0, 1, 10, 5 & RAID 0, 1, 10, 5  & RAID 0, 1, 10, 5  \\ 
 \hline 
 \textbf{ \specialcell {Мережевий\\адаптер} } & Realtek® 8111E & Intel® 82579 & Realtek® 8111 AI NET2 & Intel GbE LAN \\ 
 \hline 
-\textbf{ \specialcell {Корпус, мм} } & 330x417x100 & 200х440x493 & 200х440x493 & 200х440x493 \\ 
+\textbf{  {Корпус, мм} } & 330x417x100 & 200х440x493 & 200х440x493 & 200х440x493 \\ 
 \hline 
-\textbf{ \specialcell {Роз’єми\\зовнішніх\\пристроїв} } & USB 2.0 $\times 8$, USB 3.0 $\times 3$ & USB 2.0 $\times 12$, USB 3.0 $\times 2$ & USB 2.0 $\times 12$ & USB 2.0 $\times 16$, USB 3.0 $\times 4$ \\ 
+\textbf{ \specialcell {Роз’єми\\зовнішніх\\пристроїв} } & USB 2 $\times 8$, USB 3 $\times 3$ & USB 2 $\times 12$, USB 3 $\times 2$ & USB 2 $\times 12$ & USB 2 $\times 16$, USB 3 $\times 4$ \\ 
 \hline 
-\textbf{ \specialcell {Джерело\\живлення} } & 300 Вт & 550 Вт, 700 Вт, 1010 Вт & 550 Вт, 700 Вт, 1010 Вт & 550 Вт, 700 Вт, 1010 Вт \\ 
+\textbf{ \specialcell {Джерело\\живлення} } & 300 Вт & 550, 700, 1010 Вт & 550, 700, 1010 Вт & 550, 700, 1010 Вт \\ 
 \hline 
 \end{longtable}
 \caption{Параметри апаратної частини клієнтської робочої станції}
