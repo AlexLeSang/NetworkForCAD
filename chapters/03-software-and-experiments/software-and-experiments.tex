@@ -419,5 +419,64 @@ WINE@Etersoft 1.1 CAD & 273.00 \cite{ethersoft-price} \\
 
 Вартість одного робочого місця = Загальна вартість системи / кількість робочих місць = $ 406 969.00 / 10 = 40 696.90$ грн.
 
+\begin{figure}[!ht]
+\begin{tikzpicture}[scale=1.2] % легко изменить масштаб
+\draw[->] (0,0) -- (10,0) node[anchor=north] {};
+\draw[->] (0,0) -- (0,5) node[anchor=east] {$\text{Вартість}$};
+\foreach \x in {1,2,3,4,5,6,7,8,9} {
+\draw (\x,0.05) -- (\x,-0.05);
+\draw (\x,0) node[anchor=north] {$\x$};
+}
+%\foreach \y in {1,2,3,4} {
+%\draw (-0.05,\y) -- (0.05,\y);
+\draw (-0.8,1+0.5) node[anchor=north] {$100000$};
+\draw (-0.8,2+0.5) node[anchor=north] {$200000$};
+\draw (-0.8,3+0.5) node[anchor=north] {$300000$};
+\draw (-0.8,4+0.5) node[anchor=north] {$400000$};
+%}
+\draw (0,0) node[anchor=north west] {$0$};
+\draw[black,very thick] plot[smooth] file{atan.table};
+\draw[green,very thick] plot[smooth] file{atan1.table};
+
+\draw (0.0000, 0.4933) circle (0.05);
+\draw (1.0000, 0.9197) circle (0.05);
+\draw (2.0000, 1.3461) circle (0.05);
+\draw (3.0000, 1.7726) circle (0.05);
+\draw (4.0000, 2.1990) circle (0.05);
+\draw (5.0000, 2.6254) circle (0.05);
+\draw (6.0000, 3.0518) circle (0.05);
+\draw (7.0000, 3.4782) circle (0.05);
+\draw (8.0000, 3.9046) circle (0.05);
+\draw (9.0000, 4.3310) circle (0.05);
+
+\draw [green](0.0000, 0.2224) circle (0.05);
+\draw [green](1.0000, 0.6071) circle (0.05);
+\draw [green](2.0000, 0.9919) circle (0.05);
+\draw [green](3.0000, 1.3766) circle (0.05);
+\draw [green](4.0000, 1.7613) circle (0.05);
+\draw [green](5.0000, 2.1460) circle (0.05);
+\draw [green](6.0000, 2.5308) circle (0.05);
+\draw [green](7.0000, 2.9155) circle (0.05);
+\draw [green](8.0000, 3.3002) circle (0.05);
+\draw [green](9.0000, 3.6850) circle (0.05);
+
+\draw [black] (7,2) rectangle (10,0.5);
+\draw[black,very thick]  (7.2,1.5) -- (7.8,1.5);
+\draw[green,very thick] (7.2,0.8) -- (7.8,0.8);
+\draw (8,1.5) node[anchor=west] {$\text{non free}$};
+\draw (8,0.8) node[anchor=west] {$\text{free}$};
+\draw (2.5,-1) node[anchor=west] {$\text{Кількість робочих місць}$};
+%\draw[green,thick,yscale=1.4] plot[smooth] file{atan.table};
+\draw[densely dashed,thin] (0,1) -- (7,1);
+\foreach \z in {2,3,4} {
+\draw[densely dashed,thin] (0,\z) -- (10,\z);
+}
+%\draw (0,1.57) node[anchor=north east] {$\frac{\pi}{2}$};
+%\draw[densely dashed,thin] (0,2) -- (10,2);
+%\draw (0,-1.57) node[anchor=north east] {$-\frac{\pi}{2}$};
+\end{tikzpicture}
+\caption{Залежнісь вартості системи від кількості користувачів}
+\end{figure}
+
 \section{Висновки до розділу~\ref{ch:03}}
 Тут будуть дуже цікаві висновки на основі даного важливого розділу, дочекайтесь релізу! Але відразу помітно що ми економимо по 8 штук на рило! Я так підозрюю, що буде менше, але ти всетаки наведи пару таблиць, щоб була ілюзія вибору.
