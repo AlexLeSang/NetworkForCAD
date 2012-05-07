@@ -7,10 +7,20 @@
 \ifx\undefined\BibAnnote\long\def\BibAnnote#1{}\else\fi
 \ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
 
+\bibitem{arbyte}
+\selectlanguageifdefined{english}
+Arbyteâ® corporation. "---
+\newblock \url{http://www.arbyte.ru/}.
+
 \bibitem{arbyte-hardware}
 \selectlanguageifdefined{english}
 Arbyteâ® hardware. "---
 \newblock \url{http://support.ascon.ru/hardware/workstations/arbyte/}.
+
+\bibitem{ascon}
+\selectlanguageifdefined{english}
+Ascon corporation. "---
+\newblock \url{http://ascon.ru/}.
 
 \bibitem{kompas-price}
 \selectlanguageifdefined{english}
@@ -66,6 +76,21 @@ Microsoft windows 7 professional edition price. "---
 \BibEmph{Robbins~A.} Unix in a nutshell~/ A.~Robbins. "---
 \newblock O`REILLY, 2007. "---
 \newblock 846~p.
+
+\bibitem{solidworks}
+\selectlanguageifdefined{english}
+Solidworks corporation. "---
+\newblock \url{http://www.solidworks.com/}.
+
+\bibitem{hp}
+\selectlanguageifdefined{english}
+Solidworks corporation. "---
+\newblock \url{http://www.hp.com/}.
+
+\bibitem{cisco}
+\selectlanguageifdefined{english}
+Solidworks corporation. "---
+\newblock \url{http://www.cisco.com/}.
 
 \bibitem{ms-office-price}
 \selectlanguageifdefined{english}
