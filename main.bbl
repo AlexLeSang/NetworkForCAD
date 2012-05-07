@@ -48,7 +48,8 @@ Ethersoft price list. "---
 \selectlanguageifdefined{english}
 Hp server. "---
 \newblock
-  \url{http://h10010.www1.hp.com/wwpc/us/en/sm/WF06b/15351-15351-241434-241646-241477-3884315-5145765-5145766.html?dnr=1}.
+  \url{http://h10010.www1.hp.com/wwpc/us/en/sm/WF06b/15351-15351-241434-241646%
+-241477-3884315-5145765-5145766.html?dnr=1}.
 
 \bibitem{kompas-hardware}
 \selectlanguageifdefined{english}
@@ -96,7 +97,8 @@ Solidworks corporation. "---
 \selectlanguageifdefined{english}
 Windows office pro. "---
 \newblock
-  \url{http://www7.buyoffice.microsoft.com/emea2/product.aspx?family=o14_officepro&action=buy&country_id=UA&WT.mc_id=ODC_ukUA_Pro_Buy}.
+  \url{http://www7.buyoffice.microsoft.com/emea2/product.aspx?family=o14_offic%
+epro&action=buy&country_id=UA&WT.mc_id=ODC_ukUA_Pro_Buy}.
 
 \bibitem{ms-server-price}
 \selectlanguageifdefined{english}
